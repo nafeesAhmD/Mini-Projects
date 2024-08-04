@@ -67,3 +67,32 @@ button.operator1 {
     color: #6dee0a;
     font-size: 28px;
 }
+
+@media screen and (max-width: 320px) {
+    
+    .calculator{
+        width: 100%;
+    }
+    .calculator button {
+        width: 45px;
+        height: 45px;
+    
+    }
+    button.operator {
+        /* color: #33ffd8; */
+        color: #6dee0a;
+        font-size: 20px;
+    
+    }
+    button.operator1 {
+        color: #6dee0a;
+        font-size: 28px;
+    }
+    button.equal {
+        width: 120px;
+        background-color: #fb7c14;
+        color: #fff;
+        font-size: 30px;
+    }
+}
+

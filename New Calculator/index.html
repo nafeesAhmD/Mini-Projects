@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+   <div class="cantainer">
+    <div class="calculator">
+        
+        <div class="display">
+            <input type="text" name="" id="input-box" placeholder="0">
+        </div>
+        <div>
+            <button class="operator" onclick="clearAll()">AC</button>
+            <button class="operator" onclick="clearGr()">DE</button>
+            <button class="operator1" onclick="getValue('.')">.</button>
+            <button class="operator1" onclick="getValue('/')">/</button>    
+        </div>    
+        <div>
+            <button onclick="getValue('7')">7</button>
+            <button onclick="getValue('8')">8</button>
+            <button onclick="getValue('9')">9</button>
+            <button class="operator1" onclick="getValue('*')">*</button>
+        </div>
+        <div>
+            <button onclick="getValue('4')">4</button>
+            <button onclick="getValue('5')">5</button>
+            <button onclick="getValue('6')">6</button>
+            <button class="operator1" onclick="getValue('-')">-</button>
+        </div>
+        <div>
+            <button onclick="getValue('1')">1</button>
+            <button onclick="getValue('2')">2</button>
+            <button onclick="getValue('3')">3</button>
+            <button class="operator1" onclick="getValue('+')">+</button>
+        </div>
+        <div>
+            <button onclick="getValue('00')">00</button>
+            <button onclick="getValue('0')">0</button>
+            <button class="equal" onclick="equalVal()">=</button>
+        </div>
+       
+       </div>
+        
+   </div>
+
+  
+
+
+    <script src="app.js"></script>
+</body>
+</html>
